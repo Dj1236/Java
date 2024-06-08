@@ -1,0 +1,1 @@
+array is a one of the non primitive and linear data structure in java which stores the collection of homogenous items (similar items).

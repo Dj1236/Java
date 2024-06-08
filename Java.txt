@@ -1,0 +1,51 @@
+types of java language :- java SE , Java EE , Java ME , Java FX  (James Gosling, Mike Sheridan, and Patrick Naughton).
+java is high level, object oriented , robust  programming language devloped by sun microsystem in 1995 by
+java is the name of the island in indonesia and it was the first coffee name (alternative names are silk . dna , dynamic)
+james gossling who is father of java before it is name as Oak but it is registered company so it is named java(coffee)
+java supports the WORA(Write Once Read Anywhere )
+
+jdk , jre , jvm are the three imp key components that work together to enable the devlopment and execution of java application
+to compile the java code we need tool which is jdk (java development kit )  It includes tools, libraries, and documentation
+jdk consist of compiler which is javac which convert the java code into the byte code and 'java ' is intepreter 'jar' used for creating archive files
+'javadoc' used to create api documentation
+when we type code we have to converted into the byte code(machine executable code) and this is converted in native machine code which is directly executed by  cpu
+JVM(java virtual machine ) we have to run the code into the jvm  here we execute the code (byte code) into machine instruction code(native machine code)
+jvm is both intepreter and compiler 
+firstly jvm loads the code , then verifies the code , then executes the code, and provide the runtime env 
+it also manages the memory allocation and deallocation including garbage collection and also uses as security
+jvm also called the main method in the code for the execution
+jvm have intepreter jit just in time for compliling the byte code into native machine code
+you systems need jvm to execute the code 
+JRE(java runtime enviorment ) :- it the set of all the tools use to creat the java application also provide the runtime env , it contains the set of libraries
+JDK :- it contains the jre + development tools 
+
+java is platform independent while jvm is platform dependent why :- 
+it is because of the byte code which is platform independent but we need jvm that converts the code into byte code
+java byte code is platform independent but normal java code is platform dependent . we need jvm to execute it
+Java code is compiled into bytecode, which is then executed by the JVM. The JVM can choose to interpret the bytecode directly or dynamically
+compile it into native machine code for execution. This combination of compilation and interpretation allows Java to achieve platform independence 
+while also providing flexibility and performance.
+
+lets see how java works :- when you write the java code java have a compiler called javac it convert into the byte code after compilation 
+jvm always search the main method in the file to exectute the code . and when we compile the code we got class file which contains the byte code
+
+what is public static void main ( string args []) :-
+public : access specifier which means that the main method can be access from Anywhere by any other classes and methods
+static : here static means you dont have to create the object of class to execute it .( the main method belong to the class itself )
+void : means that it function does not need any return value of it 
+main :- it is the special method of java which is the entry point of java application jvm search for this method
+String[] args :- it is the argument for the main method it represent the array of the string args is used to provide input in java program
+
+variables :- variable is the container which hold the value , a variable is assigned with the datatype  ,there are three types of variables
+1) local variable 2) static 3) instance 
+local variable :- local variable are those variable that are declared with the scope , methds , constructor 
+static variable:- they are declared with the static keyword within the class and outside the method 
+Static variables are rarely used other than being declared as constants. Constants are variables that are declared as public/private, final, 
+and static. Constant variables never change from their initial value.
+instance variable :- this variable are declared inside the class and outside of method , it is created when the object is created with new keyword 
+each object of the class have the copy of the instance variable 
+
+datatype :- 
+
+in java we called function as method :-
+
