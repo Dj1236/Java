@@ -8,4 +8,8 @@ Circular Linked List: The last node of the list links back to the first node, fo
 In a singly linked list, a node typically contains:
 Data: The value stored in the node.
 Next: A reference to the next node in the list.
+A linked list is a data structure used for storing a collection of elements,
+where each element points to the next one, forming a sequence.
+Linked lists are dynamic, allowing efficient insertion and deletion of elements. 
+They come in several variations, such as singly linked lists, doubly linked lists, and circular linked lists
 
