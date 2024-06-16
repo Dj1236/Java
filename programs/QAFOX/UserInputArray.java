@@ -3,7 +3,6 @@ package programs.QAFOX;
 import java.util.Arrays;
 import java.util.Scanner;
 
-import DSA.Arrays.Array;
 
 public class UserInputArray {
     public static void main(String[] args) {
