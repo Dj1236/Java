@@ -1,3 +1,9 @@
+as we know array is fixed sized data structure and we have to declare the sized of the array 
+array memory ma ek hare jetli sized no hoi etli memory cover karto hoi che
+array time complexity ma mast hoi che karnke e contiguous memory  location ma hoi he ti etle 
+pan vandho su ave ke aapde agaar ek element array ma vache insert karvo hoi toh eni o(n) time aane space complexity thai jai
+but here in linkedlist element are not in contiguous form 
+
 A linked list is a data structure used in Java and other programming languages to store a collection of elements.
 Unlike arrays, linked lists do not require a contiguous block of memory; instead, they consist of nodes where each node
 contains the element and a reference (or link) to the next node in the sequence.
