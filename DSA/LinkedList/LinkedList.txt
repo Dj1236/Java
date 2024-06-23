@@ -19,3 +19,11 @@ where each element points to the next one, forming a sequence.
 Linked lists are dynamic, allowing efficient insertion and deletion of elements. 
 They come in several variations, such as singly linked lists, doubly linked lists, and circular linked lists
 
+what is cache locality :- 
+
+Doubly linkedlist :- 
+firstly check the limitaion of singly linkedlist
+as we want to get any element in singly liked list it takes O(n)
+if only head is given then we have to traverse 
+more space is used in term of memory 
+here we cannot move backwards
