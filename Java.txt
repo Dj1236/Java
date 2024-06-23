@@ -49,3 +49,139 @@ datatype :-
 
 in java we called function as method :-
 
+In Java, methods are blocks of code that perform a specific task, and they are a fundamental part of object-oriented programming. Here's an overview of key concepts and examples related to methods in Java:
+
+### Method Structure
+
+A method in Java is defined within a class and has the following structure:
+
+```java
+class ClassName {
+    returnType methodName(parameters) {
+        // method body
+    }
+}
+```
+
+### Example of a Method
+
+Here's a simple example of a method:
+
+```java
+public class MyClass {
+    // Method that returns a greeting
+    public String getGreeting(String name) {
+        return "Hello, " + name + "!";
+    }
+
+    // Main method to test getGreeting
+    public static void main(String[] args) {
+        MyClass myClass = new MyClass();
+        String greeting = myClass.getGreeting("Alice");
+        System.out.println(greeting); // Outputs: Hello, Alice!
+    }
+}
+```
+
+### Key Concepts
+
+1. **Access Modifiers**:
+   - `public`: The method is accessible from any other class.
+   - `private`: The method is accessible only within the class it is defined.
+   - `protected`: The method is accessible within the same package and subclasses.
+   - (Default) Package-private: The method is accessible only within the same package.
+
+2. **Return Type**:
+   - The data type of the value the method returns. If the method does not return a value, the return type is `void`.
+
+3. **Method Name**:
+   - A unique identifier for the method within the class.
+
+4. **Parameters**:
+   - Inputs to the method, defined within parentheses. If there are no parameters, parentheses are empty.
+
+5. **Method Body**:
+   - The block of code that executes when the method is called.
+
+### Method Overloading
+
+Methods can have the same name but different parameters. This is known as method overloading.
+
+```java
+public class MyClass {
+    // Overloaded methods
+    public void printMessage() {
+        System.out.println("Hello!");
+    }
+
+    public void printMessage(String message) {
+        System.out.println(message);
+    }
+
+    public static void main(String[] args) {
+        MyClass myClass = new MyClass();
+        myClass.printMessage(); // Outputs: Hello!
+        myClass.printMessage("Hello, World!"); // Outputs: Hello, World!
+    }
+}
+```
+
+### Static Methods
+
+Static methods belong to the class rather than an instance of the class. They can be called without creating an object of the class.
+
+```java
+public class MyClass {
+    public static void printStaticMessage() {
+        System.out.println("This is a static method.");
+    }
+
+    public static void main(String[] args) {
+        MyClass.printStaticMessage(); // Outputs: This is a static method.
+    }
+}
+```
+
+### Recursion
+
+A method can call itself. This technique is known as recursion.
+
+```java
+public class MyClass {
+    // Recursive method to calculate factorial
+    public int factorial(int n) {
+        if (n == 0) {
+            return 1;
+        } else {
+            return n * factorial(n - 1);
+        }
+    }
+
+    public static void main(String[] args) {
+        MyClass myClass = new MyClass();
+        int result = myClass.factorial(5);
+        System.out.println(result); // Outputs: 120
+    }
+}
+```
+
+### Method with Variable Arguments
+
+Methods can accept a variable number of arguments using the varargs syntax.
+
+```java
+public class MyClass {
+    public void printNumbers(int... numbers) {
+        for (int number : numbers) {
+            System.out.println(number);
+        }
+    }
+
+    public static void main(String[] args) {
+        MyClass myClass = new MyClass();
+        myClass.printNumbers(1, 2, 3, 4, 5); // Outputs: 1 2 3 4 5
+    }
+}
+```
+
+Understanding and using methods effectively is crucial for writing clean, efficient, and maintainable Java code.
