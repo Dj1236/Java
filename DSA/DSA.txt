@@ -1,0 +1,17 @@
+DSA:-
+      A program consist of two things on is data structure and one is algorithm .
+      algorithm is the step by step procedure of any given problem 
+      Data structure deals how the data is organized in the memory .
+      how effectively data can be retrived and maniuplated
+      logical relationship between individual elements of data to carry certain task .
+      way of organizing, managing, and storing data in a computer so that it can be accessed and modified efficiently.
+      Data structures provide a means to manage large amounts of data for various operations such as traversal, insertion, deletion, and search.
+      
+
+   Types of data Structure :- primitive data structure(stores the data of only one type) and Non primitive( user-defined that stores the data of different types in a single entity.) data structure    
+   Non primitive :- linear and non linear 
+   linear:-Data structure where data elements are arranged sequentially or linearly where each and every element is attached to its previous and next adjacent is called a linear data structure
+   non linear:-Data structures where data elements are not arranged sequentially or linearly are called non-linear data structures.
+   
+   Abstract data type :- theoretical concept in computer science that defines a data type by its behavior from the point of view of a user, specifically in terms of possible values, possible operations on data of this type, and the behavior of these operations. 
+   
