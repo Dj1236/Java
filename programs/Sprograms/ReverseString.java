@@ -2,7 +2,7 @@ package programs.Sprograms;
 
 public class ReverseString {
     public static void main(String[] args) {
-        String str = "Ybab wonk i sknaht";
+        String str = "Dhairya";
         char[] ca = str.toCharArray();
         int size = ca.length;
         String reverseString = "";
