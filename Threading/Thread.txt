@@ -1,0 +1,29 @@
+multitasking : in lamen words we know that doing multiple tasks at the same time .
+it means computer is executing multiple programs parallel
+it can be done in two ways :
+process based : multiple program at the time
+thread based : means multiple threads at a time
+process based simply means that u are using ms word and paint both with the context switching 
+while in thread it is an instance of program . there can be multiple thread in the program 
+so when we by mistake misspell the spelling then we get an error line that is thread that in one program multiple thread is running on it
+jyare alag alag process parallel process karti hoi tyare ene process based kevai ane jyare ek program ma multiple thread execute thati hoi tyare 
+thread(two thread share same address space, so context switching is easy less expensive ,less cost) vs process :
+why MultiThreading : we dont have to wait for the one particular task to complete we can parallel process the other task 
+in single threaded environment only one task can be performed at a time. by this reason cpu cycle are wasted 
+
+a thread is an independent sequential path of execution within a program.it is predefined class available in java lang interface
+we can create thread in java in two way by extending thread class by implementing runnable interface
+
+Main thread : when any standalone application can run a user thread is automatically created to execute the main method of the application 
+
+Java offers two types of threads: user threads and daemon threads. User threads are high-priority threads. The JVM will wait for any user thread to complete its task before terminating it. 
+On the other hand, daemon threads are low-priority threads whose only role is to provide services to user threads
+jyare pan user thread nai halti hoi tyare bhale daemon thread halti hoi jvm ene bandh kari dese
+
+user thread and demon thread : if no user thread are running respective to the demon thread it will stop the execution of all the thread
+
+MultiThreading is a process to execute multiple threads at the same time without dependency of the other thread called as MultiThreading.
+in MultiThreading cpu is not ideal 
+t.sleep is just like settimeout in js 
+
+thread scheduler : it is a part of preprocessor which executes multiple thread on a single processsor randomly 
